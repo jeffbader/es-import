@@ -1,0 +1,16 @@
+{
+  "name": "es-import",
+  "version": "1.0.0",
+  "description": "Import documents into elasticsearch.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeff Bader",
+  "license": "ISC",
+  "dependencies": {
+    "nano": "6.4.0",
+    "elasticsearch": "13.3.1"
+  }
+}
