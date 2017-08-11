@@ -11,7 +11,7 @@ function main() {
             delete doc._rev;
             delete doc.version;
             delete doc.lastModified;  // for now, until we have better mapping
-            console.log(doc);
+            console.log(doc.id);
             resolve( esDocumentStore.index(doc, 'recording') );
         });
     });
