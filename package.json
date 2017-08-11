@@ -11,7 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "elasticsearch": "13.3.1",
-    "nano": "6.4.0",
-    "promise": "^8.0.1"
+    "nano": "6.4.0"
   }
 }
