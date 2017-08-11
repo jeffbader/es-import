@@ -6,7 +6,7 @@ class ElasticsearchDocumentStore {
         this.verbose = true;
         this.esClient = new elasticsearch.Client({
             host: env.ES_SERVER + ':' + env.ES_PORT,
-            log: 'trace'
+            log: 'warning'
         });
     }
 
